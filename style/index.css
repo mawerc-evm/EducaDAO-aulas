@@ -1,0 +1,39 @@
+.container {
+    width: 70%;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: #eee;
+}
+.campo1, .campo2, .operacao, .resultado {
+    width: 46%;
+    padding: 2%;
+}
+.campo1, .operacao {
+    float: left;
+}
+.campo2, .resultado {
+    float: right;
+}
+.botao{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    width: 100%;
+    margin-top: 20px;
+}
+select {
+    width: 100%;
+    margin-top: 20px;
+}
+.mensagem{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
